@@ -15,7 +15,6 @@ public class SteamBot
     //public event Action<object, BalanceEventArgs>? OnEmptyBalance;
 
     public event EventHandler<BalanceEventArgs>? OnEmptyBalance;
-
     public SteamBot(int balance, int productCount)
     {
         _balance = balance;
